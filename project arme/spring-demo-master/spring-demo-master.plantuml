@@ -1,0 +1,387 @@
+@startuml
+
+title __SPRING-DEMO-MASTER's Class Diagram__\n
+
+  namespace projectArme {
+    class projectArme.Ds2020Application {
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace controllers {
+      class projectArme.controllers.AdminController {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace controllers {
+      class projectArme.controllers.ArmeController {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace controllers {
+      class projectArme.controllers.IndexController {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace controllers {
+      class projectArme.controllers.PersonController {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace controllers {
+      class projectArme.controllers.UtilizatorController {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace controllers {
+      namespace handlers {
+        class projectArme.controllers.handlers.RestExceptionHandler {
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace controllers {
+      namespace handlers {
+        namespace exceptions.model {
+          class projectArme.controllers.handlers.exceptions.model.CustomException {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace controllers {
+      namespace handlers {
+        namespace exceptions.model {
+          class projectArme.controllers.handlers.exceptions.model.DuplicateResourceException {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace controllers {
+      namespace handlers {
+        namespace exceptions.model {
+          class projectArme.controllers.handlers.exceptions.model.EntityValidationException {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace controllers {
+      namespace handlers {
+        namespace exceptions.model {
+          class projectArme.controllers.handlers.exceptions.model.ExceptionHandlerResponseDTO {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace controllers {
+      namespace handlers {
+        namespace exceptions.model {
+          class projectArme.controllers.handlers.exceptions.model.ParameterValidationException {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace controllers {
+      namespace handlers {
+        namespace exceptions.model {
+          class projectArme.controllers.handlers.exceptions.model.ResourceNotFoundException {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      class projectArme.dtos.AdminDTO {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      class projectArme.dtos.AdminDetailsDTO {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      class projectArme.dtos.ArmeDTO {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      class projectArme.dtos.ArmeDetailsDTO {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      class projectArme.dtos.PersonDTO {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      class projectArme.dtos.PersonDetailsDTO {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      class projectArme.dtos.UtilizatorDTO {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      class projectArme.dtos.UtilizatorDetailsDTO {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      namespace builders {
+        class projectArme.dtos.builders.AdminBuilder {
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      namespace builders {
+        class projectArme.dtos.builders.ArmeBuilder {
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      namespace builders {
+        class projectArme.dtos.builders.PersonBuilder {
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      namespace builders {
+        class projectArme.dtos.builders.UtilizatorBuilder {
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      namespace validators {
+        class projectArme.dtos.validators.AgeValidator {
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace dtos {
+      namespace validators {
+        namespace annotation {
+          interface projectArme.dtos.validators.annotation.AgeLimit {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace entities {
+      class projectArme.entities.Admin {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace entities {
+      class projectArme.entities.Arme {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace entities {
+      class projectArme.entities.Person {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace entities {
+      class projectArme.entities.Utilizator {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace repositories {
+      interface projectArme.repositories.AdminRepository {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace repositories {
+      interface projectArme.repositories.ArmeRepository {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace repositories {
+      interface projectArme.repositories.PersonRepository {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace repositories {
+      interface projectArme.repositories.UtilizatorRepository {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace services {
+      class projectArme.services.AdminService {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace services {
+      class projectArme.services.ArmeService {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace services {
+      class projectArme.services.PersonService {
+      }
+    }
+  }
+  
+
+  namespace projectArme {
+    namespace services {
+      class projectArme.services.UtilizatorService {
+      }
+    }
+  }
+  
+
+  projectArme.Ds2020Application -up-|> org.springframework.boot.web.servlet.support.SpringBootServletInitializer
+  projectArme.controllers.AdminController o-- projectArme.services.AdminService : adminService
+  projectArme.controllers.ArmeController o-- projectArme.services.ArmeService : armeService
+  projectArme.controllers.PersonController o-- projectArme.services.PersonService : personService
+  projectArme.controllers.UtilizatorController o-- projectArme.services.UtilizatorService : utilizatorService
+  projectArme.controllers.handlers.RestExceptionHandler -up-|> org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler
+  projectArme.controllers.handlers.exceptions.model.DuplicateResourceException -up-|> projectArme.controllers.handlers.exceptions.model.CustomException
+  projectArme.controllers.handlers.exceptions.model.EntityValidationException -up-|> projectArme.controllers.handlers.exceptions.model.CustomException
+  projectArme.controllers.handlers.exceptions.model.ParameterValidationException -up-|> projectArme.controllers.handlers.exceptions.model.CustomException
+  projectArme.controllers.handlers.exceptions.model.ResourceNotFoundException -up-|> projectArme.controllers.handlers.exceptions.model.CustomException
+  projectArme.dtos.AdminDTO -up-|> org.springframework.hateoas.RepresentationModel
+  projectArme.dtos.ArmeDTO -up-|> org.springframework.hateoas.RepresentationModel
+  projectArme.dtos.PersonDTO -up-|> org.springframework.hateoas.RepresentationModel
+  projectArme.dtos.UtilizatorDTO -up-|> org.springframework.hateoas.RepresentationModel
+  projectArme.dtos.validators.AgeValidator .up.|> javax.validation.ConstraintValidator
+  projectArme.entities.Admin .up.|> java.io.Serializable
+  projectArme.entities.Arme .up.|> java.io.Serializable
+  projectArme.entities.Person .up.|> java.io.Serializable
+  projectArme.entities.Utilizator .up.|> java.io.Serializable
+  projectArme.services.AdminService o-- projectArme.repositories.AdminRepository : adminRepository
+  projectArme.services.ArmeService o-- projectArme.repositories.ArmeRepository : armeRepository
+  projectArme.services.PersonService o-- projectArme.repositories.PersonRepository : personRepository
+  projectArme.services.UtilizatorService o-- projectArme.repositories.UtilizatorRepository : utilizatorRepository
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
